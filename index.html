@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Site</title>
+    <link id="page-theme" rel="stylesheet" href="/styles/sakura.css" />
+    <link rel="stylesheet" href="/styles/custom.css" />
+  </head>
+  <body>
+    <aside style="text-align: right">
+      <select name="theme" id="theme">
+        <option value="sakura">Sakura Default</option>
+        <option value="sakura-dark">Sakura Dark</option>
+        <option value="sakura-dark-solarized">Sakura Dark Solarized</option>
+        <option value="sakura-earthly">Sakura Earthly</option>
+        <option value="sakura-ink">Sakura Ink</option>
+        <option value="sakura-pink">Sakura Pink</option>
+        <option value="sakura-vader">Sakura Vader</option>
+      </select>
+    </aside>
+
+    <header>
+      <nav>
+        <div>SITE LOGO</div>
+
+        <div>
+          <a href="">Home |</a>
+
+          <a href="#experience">Experience |</a>
+          <a href="#skills">Skills |</a>
+          <a href="#contact">Contact |</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section>
+        <h1>
+          Hey there, I'm Bonaventure <br />
+          Fullstack Web Developer and Teacher
+        </h1>
+
+        <p>
+          I love connecting brands and companies with their customers with great
+          websites. I can help you with amazing blogs, e-commerce stores,
+          dashboards, and other kinds of websites.
+        </p>
+        <p>
+          View my repositories on
+          <a href="https://github.com/bonarhyme">Github</a>
+        </p>
+      </section>
+
+      <hr />
+      <br />
+      <br />
+      <!-- End Hero Section -->
+
+      <!-- Experience Section -->
+      <section id="experience">
+        <h2>Experience</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Company</th>
+              <th>Role</th>
+              <th>Language</th>
+              <th>Duration</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>1.</td>
+              <td>ABC and DC</td>
+              <td>Frontend Developer</td>
+              <td>HTML, CSS, JS</td>
+              <td>6 Months</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Urg and Turg</td>
+              <td>Junior Frontend</td>
+              <td>Php, HTML, CSS, Jquery</td>
+              <td>4 Months</td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td>Urg and Turg</td>
+              <td>Frontend Intern</td>
+              <td>Php, HTML, CSS, Jquery</td>
+              <td>2 Months</td>
+            </tr>
+            <tr>
+              <td>4.</td>
+              <td>Freelance</td>
+              <td>Fullstack Developer</td>
+              <td>React, Php, Bootstrap</td>
+              <td>8 Months</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br />
+      <br />
+      <br />
+
+      <!-- End Experience Section -->
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <p>These are some of the technologies I have used.</p>
+
+        <div>
+          <h4>Programming Languages:</h4>
+
+          <ol>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Ruby</li>
+            <li>TypeScript</li>
+          </ol>
+        </div>
+
+        <div>
+          <h4>Frameworks:</h4>
+
+          <ol>
+            <li>Express.js</li>
+            <li>React.js</li>
+            <li>Liquid</li>
+            <li>Blade</li>
+            <li>Laravel</li>
+          </ol>
+        </div>
+
+        <div>
+          <h4>Others:</h4>
+
+          <ol>
+            <li>Photoshop</li>
+            <li>Figma</li>
+            <li>Sketch XD</li>
+            <li>Microsoft Excel</li>
+            <li>Microsoft Word</li>
+          </ol>
+        </div>
+
+        <blockquote>
+          Wisdom is not a product of schooling but of the lifelong attempt to
+          acquire it. <br />
+          <cite>-Albert Eistein</cite>
+        </blockquote>
+      </section>
+      <br />
+      <hr />
+      <br />
+
+      <!-- End Skills Section -->
+
+      <!-- Contact Section -->
+      <br />
+      <section id="contact">
+        <h2>Get In Touch</h2>
+        <form method="post">
+          <div>
+            <label for="name">Name</label>
+            <input
+              type="name"
+              name="name"
+              placeholder="Enter your name"
+              required="true"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              required="true"
+            />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              rows="10"
+              placeholder="Enter your message"
+              required="true"
+            ></textarea>
+          </div>
+
+          <div>
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+      <br />
+      <br />
+      <!-- End Contact Section -->
+
+      <!-- Photo Flash -->
+      <section>
+        <h2>Photo Flash</h2>
+        <br />
+        <div style="display: flex; flex-wrap: wrap; justify-content: center">
+          <div style="width: 100%; max-width: 300px; height: 300px">
+            <img
+              src="/images/person1.jpg"
+              alt=""
+              width="300"
+              height="300"
+              style="object-fit: cover; height: 100%"
+            />
+          </div>
+          <div style="width: 100%; max-width: 300px; height: 300px">
+            <img
+              src="/images/person2.jpg"
+              alt=""
+              width="300"
+              height="300"
+              style="object-fit: cover; height: 100%"
+            />
+          </div>
+          <div style="width: 100%; max-width: 300px; height: 300px">
+            <img
+              src="/images/person3.jpg"
+              alt=""
+              width="300"
+              height="300"
+              style="object-fit: cover; height: 100%"
+            />
+          </div>
+          <div style="width: 100%; max-width: 300px; height: 300px">
+            <img
+              src="/images/person4.jpg"
+              alt=""
+              width="300"
+              height="300"
+              style="object-fit: cover; height: 100%"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- End Photo Flash -->
+    </main>
+
+    <br />
+    <br />
+
+    <footer>
+      <br />
+      <p>
+        Created By
+        <a href="https://github.com/bonarhyme">Bonaventure Chukwudi</a>
+      </p>
+    </footer>
+    <script src="/script/index.js"></script>
+  </body>
+</html>
